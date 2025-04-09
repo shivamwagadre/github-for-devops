@@ -1,5 +1,17 @@
+"""
+This module contains a demonstration function that returns a fixed value.
+"""
+
 def my_function():
-    a=3
+    """
+    Returns the integer 3.
+    
+    This function is a simple demonstration of how to define a function
+    in Python and return a value.
+    """
+    a = 3
     return a
 
-my_function()
+# Call the function and print the result
+result = my_function()
+print(result)
