@@ -1,17 +1,26 @@
-git init   
 git status
-git add testing.py
-git statusgit rm --cached testing.py 
-git status
+ clear
 git add .
 git status
-git commit -m " added testing files"
-git config --global user.email "shivamwagadre1@email.com"
-git config --global user.name "shivam wagadre"
-git commit -m " added testing files"
+clear
+git status
+git commit -m "added testing files"
+clear
 git status
 rm testing.py
 ls
+clear
 git status
 git restore testing.py
-this is change
+clear
+git status
+
+git remote add origin https://github.com/LondheShubham153/github-for-devops-workshop.git
+git remote -v
+git status
+ 
+git remote set-url origin https://github.com/LondheShubham153/github-for-devops-workshop.git
+clear
+git remote -v
+git push origin master
+clear
