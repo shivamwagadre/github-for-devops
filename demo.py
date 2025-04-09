@@ -14,4 +14,4 @@ def my_function():
 
 # Call the function and print the result
 result = my_function()
-print(result)
+print(Result)
